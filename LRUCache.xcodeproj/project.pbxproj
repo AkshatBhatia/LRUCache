@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		ACB52AAD17EAB1C6002412F8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB52AAC17EAB1C6002412F8 /* main.cpp */; };
 		ACB52AAF17EAB1C6002412F8 /* LRUCache.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ACB52AAE17EAB1C6002412F8 /* LRUCache.1 */; };
+		ACB52AB717EABDD2002412F8 /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB52AB517EABDD2002412F8 /* LRUCache.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		ACB52AA917EAB1C6002412F8 /* LRUCache */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LRUCache; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB52AAC17EAB1C6002412F8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ACB52AAE17EAB1C6002412F8 /* LRUCache.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LRUCache.1; sourceTree = "<group>"; };
+		ACB52AB517EABDD2002412F8 /* LRUCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LRUCache.cpp; sourceTree = "<group>"; };
+		ACB52AB617EABDD2002412F8 /* LRUCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRUCache.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				ACB52AAC17EAB1C6002412F8 /* main.cpp */,
 				ACB52AAE17EAB1C6002412F8 /* LRUCache.1 */,
+				ACB52AB517EABDD2002412F8 /* LRUCache.cpp */,
+				ACB52AB617EABDD2002412F8 /* LRUCache.h */,
 			);
 			path = LRUCache;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB52AAD17EAB1C6002412F8 /* main.cpp in Sources */,
+				ACB52AB717EABDD2002412F8 /* LRUCache.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
